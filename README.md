@@ -1,6 +1,6 @@
 # Componentes Android
 
-Aplicación desarrollada en AndroidStudio 3.3.1 con una desmotración del uso de diferentes componentes de UI
+Aplicación desarrollada en AndroidStudio 3.3.1 con una demostración del uso de diferentes componentes de UI
 
 ## Lista de componentes
 
