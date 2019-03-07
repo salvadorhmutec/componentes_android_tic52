@@ -4,22 +4,22 @@ Aplicación desarrollada en AndroidStudio 3.3.1 con una demostración del uso de
 
 ## Lista de componentes
 
-1. ScrollView y HorizontalScrollView
-2. EditText
-3. Button
-4. ImageButton
-5. CheckBox
-6. RadioGrup y RadioButtton
-7. ToggleButton
-8. Switch
-9. FloatingActionButton
-10. ImageView
-11. WebView
+1. ScrollView y HorizontalScrollView - Sury Sarahi Trejo Espindola
+2. EditText - Jocelyn Flores Badillo
+3. Button Jonatan Vazquez Tellez
+4. ImageButton - Juan Pablo Duran Rendon
+5. CheckBox - Manuel Alonso 
+6. RadioGrup y RadioButtton - Mayra Patricia Pérez Martínez
+7. ToggleButton - Luis Norberto Paloma Rodriguez
+8. Switch -Yoselin Ortiz Romero
+9. FloatingActionButton - Jose Luis Aparicio Guzman
+10. ImageView - Oscar Escamilla Luqueño 
+11. WebView - Cristian Gayosso Peralta
 12. VideoView
-13. CalendarView
-14. RatingBar
-15. ProgressBar
-16. TabLayout
-17. Spinner
+13. CalendarView - Esteban Islas Santos
+14. RatingBar - Daniela Garcia Rios
+15. ProgressBar -Gabriela Curiel Garcia
+16. TabLayout - Sebastián de Jesús Alfaro Rosales
+17. Spinner abner joel lira silva
 18. MapView
 19. SeekBar
