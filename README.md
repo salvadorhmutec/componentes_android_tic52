@@ -15,11 +15,10 @@ Aplicación desarrollada en AndroidStudio 3.3.1 con una demostración del uso de
 9. FloatingActionButton - Jose Luis Aparicio Guzman
 10. ImageView - Oscar Escamilla Luqueño 
 11. WebView - Cristian Gayosso Peralta
-12. VideoView
+12. VideoView - Daniela Rubiales Marquez
 13. CalendarView - Esteban Islas Santos
 14. RatingBar - Daniela Garcia Rios
 15. ProgressBar -Gabriela Curiel Garcia
 16. TabLayout - Sebastián de Jesús Alfaro Rosales
 17. Spinner abner joel lira silva
-18. MapView
-19. SeekBar
+18. MapView - Isais Manuel Aranda Leal
