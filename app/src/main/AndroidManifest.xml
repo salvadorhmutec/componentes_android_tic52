@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Activity_RadioButton_GroupButton"></activity>
         <activity android:name=".Activity_Button" />
         <activity
             android:name=".MainActivity"
@@ -21,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activity_Scroll_View_Horizontal_Scoll_View" />
-        <activity android:name=".Activity_Image_Button"></activity>
+        <activity android:name=".Activity_Image_Button" />
     </application>
 
 </manifest>
