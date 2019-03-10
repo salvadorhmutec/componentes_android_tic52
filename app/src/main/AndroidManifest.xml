@@ -24,7 +24,8 @@
         </activity>
         <activity android:name=".Activity_Scroll_View_Horizontal_Scoll_View" />
         <activity android:name=".Activity_Image_Button" />
-        <activity android:name=".Activity_image_view"></activity>
+        <activity android:name=".Activity_image_view" />
+        <activity android:name=".Activity_ProgressBar"></activity>
     </application>
 
 </manifest>
