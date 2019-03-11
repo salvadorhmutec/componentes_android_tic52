@@ -29,8 +29,13 @@
         <activity android:name=".Activity_Image_Button" />
         <activity android:name=".Activity_image_view" />
         <activity android:name=".Activity_ProgressBar" />
+<<<<<<< HEAD
         <activity android:name=".Activity_Switch" />
         <activity android:name=".Activity_Rating_Bar"></activity>
+=======
+        <activity android:name=".VideoView"></activity>
+        <activity android:name=".Activity_Switch"></activity>
+>>>>>>> 6188088e6dcd16886ea01facca300d6f379f8cba
     </application>
 
 </manifest>
