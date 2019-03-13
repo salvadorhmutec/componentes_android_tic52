@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Activity_Spinner"></activity>
         <activity android:name=".Activity_Web_View" />
         <activity android:name=".Activity_Tab_Layout" />
         <activity android:name=".Activity_Map_View" />
@@ -30,9 +31,9 @@
         <activity android:name=".Activity_image_view" />
         <activity android:name=".Activity_ProgressBar" />
         <activity android:name=".Activity_Switch" />
-        <activity android:name=".Activity_Rating_Bar"/>
-        <activity android:name=".VideoView"/>
-        <activity android:name=".Activity_Switch"/>
+        <activity android:name=".Activity_Rating_Bar" />
+        <activity android:name=".VideoView" />
+        <activity android:name=".Activity_Switch" />
     </application>
 
 </manifest>
