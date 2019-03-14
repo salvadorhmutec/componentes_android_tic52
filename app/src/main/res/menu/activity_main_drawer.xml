@@ -21,6 +21,7 @@
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/checkbox" />
         <item
+            android:id="@+id/nav_floating_button"
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/floatingbutton" />
         <item
@@ -38,7 +39,7 @@
         <item
             android:id="@+id/nav_progress_bar"
             android:icon="@drawable/ic_menu_manage"
-            android:title="@string/progresssbar" />
+            android:title="@string/progressbar" />
         <item
             android:id="@+id/nav_radio_button"
             android:icon="@drawable/ic_menu_manage"

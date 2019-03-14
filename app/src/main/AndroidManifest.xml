@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity_Floating_Action_Buttom"></activity>
+        <activity android:name=".Activity_Floating_Action_Buttom"/>
         <activity android:name=".Activity_Calendar_View" />
         <activity android:name=".Activity_Spinner" />
         <activity android:name=".Activity_Web_View" />

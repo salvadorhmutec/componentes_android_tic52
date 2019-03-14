@@ -14,7 +14,7 @@
     <string name="imagebutton">ImageButton</string>
     <string name="imageview">ImageView</string>
     <string name="mapview">MapView</string>
-    <string name="progresssbar">ProgresssBar</string>
+    <string name="progressbar">ProgresssBar</string>
     <string name="radiobutton">RadioButton</string>
     <string name="ratingbar">RatingBar</string>
     <string name="switchcomponent">Switch</string>
