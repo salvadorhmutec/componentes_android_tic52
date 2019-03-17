@@ -6,15 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".Activity__Edit_Text">
 
-    <TextView
+    <EditText
+        android:id="@+id/edtNumero1"
+        android:layout_width="313dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="Número 1"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/edtNumero2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNumero2"
+        android:layout_width="313dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="64dp"
+        android:ems="10"
+        android:hint="Número 2"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btnSumar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNumero1" />
+
+    <Button
+        android:id="@+id/btnSumar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/edittext"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="148dp"
+        android:text="Sumar"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNumero2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="34dp"
+        android:text="Edit Text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/edtNumero1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
