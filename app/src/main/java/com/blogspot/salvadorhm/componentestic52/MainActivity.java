@@ -90,6 +90,9 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.nav_check_box) {
             Intent intent = new Intent(getApplicationContext(),Activity_CheckBox.class);
+            startActivity(intent);}
+            else if (id == R.id.nav_floating_button) {
+            Intent intent = new Intent(getApplicationContext(),Activity_Floating_Action_Buttom.class);
             startActivity(intent);
         } else if (id == R.id.nav_image_button) {
             Intent intent = new Intent(getApplicationContext(),Activity_Image_Button.class);
