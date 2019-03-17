@@ -19,4 +19,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fabPrincipal"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        app:menu_fab_label="Menu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/subMenu2"
+            android:onClick="clicSubMenu2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:menu_fab_label="Sub Menu 2"
+            android:src="@drawable/ic_submenu2"/>
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/subMenu1"
+            android:onClick="clicSubMenu1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:menu_fab_label="Sub Menu 1"
+            android:src="@drawable/ic_submenu1"/>
+    </com.github.clans.fab.FloatingActionMenu>
+</RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>
