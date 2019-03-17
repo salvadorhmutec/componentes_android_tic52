@@ -23,6 +23,7 @@ public class Activity__Edit_Text extends AppCompatActivity {
         }
 
     };
+
     public void calcularSuma(){
 
         EditText numero1 = (EditText)findViewById(R.id.edtNumero1);
