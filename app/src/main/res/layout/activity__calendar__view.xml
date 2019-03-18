@@ -9,9 +9,10 @@
     android:orientation="vertical"
     tools:context=".Activity_Calendar_View">
 
+    <!--Utiliza Scroll para dezplazarte-->
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="744dp">
+        android:layout_height="match_parent">
 
         <!-- Linear layout contenedor de todos componentes -->
         <LinearLayout
@@ -41,6 +42,17 @@
                 android:textColor="#FFF"
                 android:textSize="11sp" />
 
+            <TextView
+                android:id="@+id/txt_myDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:text="Esta es tu fecha"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="15sp" />
+
             <!-- Linear Layout del CalendarView -->
             <LinearLayout
                 android:layout_width="300dp"
@@ -50,7 +62,7 @@
                 android:background="@drawable/background_calendar_view">
 
                 <CalendarView
-                    android:id="@+id/calendarView"
+                    android:id="@+id/cal_view_calendario"
                     android:layout_width="wrap_content"
                     android:layout_height="320dp">
 
@@ -64,10 +76,11 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="25dp"
+                android:layout_marginBottom="35dp"
                 android:background="@drawable/background_btn"
+                android:onClick="guardarOnClick"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
-                android:layout_marginBottom="35dp"
                 android:text="Guardar Fecha"
                 android:textColor="#FFF" />
 
