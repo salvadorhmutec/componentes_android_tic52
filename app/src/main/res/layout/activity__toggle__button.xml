@@ -1,22 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeToggleButton"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_Toggle_Button">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/togglebutton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/toggleButtonTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toggle Button"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:textColor="@color/titleToggleButton"
+            android:layout_margin="10sp"/>
+
+        <TextView
+            android:id="@+id/toggleButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:text="Un ToggleButton permite al usuario cambiar una configuración entre dos estados"
+            android:textColor="@color/titleToggleButton"
+            android:textSize="15sp"
+            android:layout_margin="5sp"/>
+
+        <ImageView
+            android:id="@+id/toggleButtonImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:src="@drawable/image_tbutton"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/toggleButtonDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="En Android, ToggleButton se usa para mostrar el estado de un botón marcado y sin marcar. ToggleButton básicamente es un botón de encendido/apagado con un indicador luminoso que indica el estado actual del botón de alternar. El ejemplo más simple de ToggleButton es activar/desactivar el sonido, Bluetooth, wifi, hotspot, etc. Es una subclase de compoundButton."
+            android:gravity="center"
+            android:layout_marginTop="20sp"
+            android:textSize="15sp"
+            android:textColor="@color/titleToggleButton"
+            android:layout_margin="5sp"
+            android:paddingTop="10sp"/>
+
+        <TextView
+            android:id="@+id/titleExample"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:text="Pulsa el 'ToggleButton' para ver la magia"
+            android:textColor="@color/titleToggleButton"
+            android:textSize="20sp"
+            android:layout_margin="20sp" />
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</RelativeLayout>
