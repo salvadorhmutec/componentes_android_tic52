@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(getApplicationContext(),Activity_Calendar_View.class);
             startActivity(intent);
         } else if (id == R.id.nav_map_view) {
-            Intent intent = new Intent(getApplicationContext(),Activity_Map_View.class);
+            Intent intent = new Intent(getApplicationContext(),Map_view.class);
             startActivity(intent);
         } else if (id == R.id.nav_progress_bar) {
             Intent intent = new Intent(getApplicationContext(),Activity_ProgressBar.class);
