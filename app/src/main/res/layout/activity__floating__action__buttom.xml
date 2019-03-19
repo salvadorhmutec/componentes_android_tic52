@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".Activity_Floating_Action_Buttom">
 
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,32 +21,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <RelativeLayout
     android:layout_height="match_parent"
     android:layout_width="match_parent">
-    <com.github.clans.fab.FloatingActionMenu
-        android:id="@+id/fabPrincipal"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        app:menu_fab_label="Menu"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true">
 
-        <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/subMenu2"
-            android:onClick="clicSubMenu2"
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/fabPrincipal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:menu_fab_label="Sub Menu 2"
-            android:src="@drawable/ic_submenu2"/>
-        <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/subMenu1"
-            android:onClick="clicSubMenu1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:menu_fab_label="Sub Menu 1"
-            android:src="@drawable/ic_submenu1"/>
-    </com.github.clans.fab.FloatingActionMenu>
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            app:menu_fab_label="Menu">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/subMenu2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="clicSubMenu2"
+                android:src="@drawable/ic_submenu2"
+                app:menu_fab_label="Sub Menu 2" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/subMenu1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="clicSubMenu1"
+                android:src="@drawable/ic_submenu1"
+                app:menu_fab_label="Sub Menu 1" />
+        </com.github.clans.fab.FloatingActionMenu>
 </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

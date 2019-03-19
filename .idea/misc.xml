@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectRootManager">
 =======
   <component name="NullableNotNullManager">
@@ -34,6 +35,16 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
 >>>>>>> f095d54ffe7d69e5f5a3c98e8cadd9537aa64e1e
+=======
+=======
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+>>>>>>> edcc9288b8dabb645c37ac4996b7e7b84c5d4b21
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+>>>>>>> f459528e04189d7487939c25693bacb0940b139c
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -26,22 +26,20 @@
         android:layout_height="146dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="28dp"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="71dp"
         tools:text="El control ImageView permite mostrar imágenes en la aplicación. La propiedad más interesante es android:src, que permite indicar la imagen a mostrar. Nuevamente, lo normal será indicar como origen de la imagen el identificador de un recurso de nuestra carpeta /res/drawable, por ejemplo android:src=”@drawable/unaimagen”." />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="335dp"
-        android:layout_height="222dp"
-        android:layout_marginBottom="44dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:ignore="MissingConstraints"
+        android:id="@+id/imageView"
+        android:layout_width="344dp"
+        android:layout_height="225dp"
+        app:srcCompat="@drawable/horse"
         tools:layout_editor_absoluteX="24dp"
-        tools:srcCompat="@tools:sample/backgrounds/scenic[15]" />
+        tools:layout_editor_absoluteY="251dp"
+        tools:ignore="MissingConstraints" />
 
 </android.support.constraint.ConstraintLayout>
