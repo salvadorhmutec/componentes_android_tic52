@@ -28,4 +28,5 @@
     <string name="share">Share</string>
     <string name="send">Send</string>
     <string name="radiobutton_description">RadioButton: Un RadioButton es un componente que permite al usuario seleccionar un elemento de una serie de ocpiones. Para crear una opción con RadioButton, tenemos que crear un RadioGroup ya que los RadioButtons son mutuamente exclusivos, asi los agrupamos y nos aseguramos que el usuario solo pueda elegir una de las opciones.</string>
+    <string name="title_activity_map_view">Map</string>
 </resources>
