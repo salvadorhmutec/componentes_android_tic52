@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Página</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="desciption" content="Esta es una página web sobrel el colegio Gabriel Mancera García
+                en esta página encontrarás toda su información de contacto" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+
+            <!--Barra de navegación -->
+            <div id="navegacion" class="container-fluid">
+                <br>
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <br>
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Desplegar navegación</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div>
+                            <a class="navbar-brand container-fliud" href="index.html">   
+                                <img src="Logo.jpg" class="logo" alt="Brand"> <h3 id="name">Colegio Gabriel Mancera García </h3> 
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="enlaces" class="collapse navbar-collapse navbar-ex1-collapse ">
+                        <ul class="nav navbar-nav">
+                            <li><a id="enlaces2" href="informacion.html">Información</a></li>
+                            <li><a id="enlaces2" href="padres.html">Padres</a></li>
+                            <li><a id="enlaces2" href="profesores.html">Profesores</a></li>
+                            <li><a id="enlaces2" href="nosotros.html">Sobre Nosotros</a></li>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="alert alert-danger mensaje">
+        <center><strong>¡Error!</strong> 
+        ha escrito su contraseña de manera incorrecta, vuelva a intentarlo.</center></div>        
+
+        <div class="row">
+            <div class="col-xs-16">
+                <img src="imagenes/avatar.png" id="avatar" alt="" class="img-responsive">
+            </div>
+        </div>
+
+        <form action="" method="POST" id="formlg" class="login">
+            <div class="form-group">
+                <input type="text" class="form-control" pattern="[A-Za-z0-9]{1,15}" placeholder="Escribe tu usuario" name="usuario" required autofocus>
+            </div>
+
+            <div class="form-group">
+                <input type="password" class="form-control" pattern="[A-Za-z0-9]{1,15}" placeholder="Contraseña" name="pass" required>
+            </div>
+
+            <input class="btn btn-success btn-block botonlg" type="submit" value="Iniciar sesión">
+            
+            <p class="help-block"><a href="#">¿No puedes acceder?</a></p>
+        </form>
+
+  
+
+
+  
+
+    <footer>
+        <div class="container">
+            <div class="col-md-12">
+                <p class="pull-right"><a href="#">Regresa al principio</a></p>
+                <p>&copy; 2017 Mike, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p><br>
+                <center>
+                    <a href="#">Inicio-</a>
+                    <a href="#">Información-</a>
+                    <a href="#">Padres-</a>
+                    <a href="#">Profesores</a>
+                </center>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

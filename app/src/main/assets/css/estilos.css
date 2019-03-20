@@ -1,0 +1,196 @@
+body{
+    /*background: rgba(10,34,64, 0.7);*/
+    padding-top: 80px;
+    font-family: Helvetica, sans-serif;
+}
+
+#enlaces2 {
+    color: #f2f2f2;
+    left: 500px;
+    bottom: 9px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#name{
+    position: relative;
+    left: 80px;
+    bottom: 58px;
+    color: #fff;
+}
+
+.navbar{
+    background: rgb(10,34,64);
+}
+
+.main{
+    background: #f2f2f2;
+    padding-top: 25px; 
+    padding-bottom: 2px;
+} 
+
+.logo{
+    width: 55px;
+    height:  55px;
+}
+
+.navbar-brand{
+    position: relative;
+    bottom:25px;
+    left: 25px; 
+}
+
+.busca{
+    position: relative;
+    left:500px;
+
+}
+ 
+.slider{
+     width: 1200px;
+     height: 400px;
+}
+
+.ubicanos{
+    text-align: left;
+    position: relative;
+    bottom: 15px;
+}
+
+.icon-contact{
+    font-size: 28px;    
+}
+
+hr {
+    border: 1px dashed rgba(10,34,64,1.5);     
+    height: 0; 
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-cont{
+   background: rgba(10,34,64, 0.2);
+    padding-top: 25px; 
+    padding-bottom: 25px;
+    
+}
+
+.first{
+    padding-top: 40px;
+}
+
+h2{
+    font-size: 50px;
+    color: #777;
+}
+
+.title-content {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.content{
+    font-size: 20px;
+}
+
+.login{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.log{
+    max-width: 340px;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(48,50 ,50 ,0.48);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(48,50 ,50 ,0.48);
+    box-shadow: 0px 0px 18px 0px rgba(48,50 ,50 ,0.48);
+    border-radius: 6%;
+}
+
+#avatar{
+    width: 96px;
+    height: 96px;
+    margin: 0px auto 10px;
+    display: block;
+    border-radius: 50%;
+    
+}
+
+.inscrip{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.jumbotron{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 40px;
+}
+
+.prueba{
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+    float: right; 
+    width: 200px;
+    height: 200px;
+}
+
+#mn{
+    text-align: center;
+}
+
+.ar1{
+    width: 350 px;
+    height: 300px;
+}
+
+#uniforme{
+    width: 150px;
+    height: 360px;
+}
+
+#emergente{
+    text-align: center;
+    background: rgba(0, 0, 128,0);
+    padding-top: 12px; 
+    color: black;
+}
+
+#emergente h2{
+    text-align: left;
+    color: black;
+}
+
+#tool{
+    width: 50px;
+    height: 50px;
+}
+
+ #video{
+     padding-top: 20px; 
+     float: left;
+ }
+
+ .padre{
+     position: relative;
+ }
+ .title{
+     text-align: center;
+ }
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+#menu{
+    text-align: center;
+}
